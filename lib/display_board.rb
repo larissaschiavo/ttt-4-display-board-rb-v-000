@@ -12,4 +12,5 @@ end
 def display_board(board)
   if board.empty?
     print display_board
+  end 
 end
