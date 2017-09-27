@@ -8,12 +8,3 @@ print  "#{board[3]}" + "|" + "#{board[4]}" + "|" + "#{board[5]}"
 print "\n-----------\n"
 print  "#{board[6]}" + "|" + "#{board[7]}" + "|" + "#{board[8]}" + "\n"
 end
-
-def display_board(board)
-  if board.empty?
-    print display_board(board)
-  end
-
-else
-  print display_board(board)
-end
