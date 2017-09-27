@@ -11,9 +11,9 @@ end
 
 def display_board(board)
   if board.empty?
-    print display_board
-  end 
+    print display_board(board)
+  end
 
-else 
-  print 
+else
+  print display_board(board)
 end
